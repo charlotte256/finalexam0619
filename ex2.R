@@ -29,4 +29,5 @@ tail(z)
 bad15=tail(z,n=15)
 summary(z)
 boxplot(bad15$新生註冊率)
+write.csv(bad15,"bad15.csv",row.names = F)
 
